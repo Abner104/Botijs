@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Botilleria</title>
+</head>
+<body>
+
+    <div class="navbar-bar">
+        <h1 class="textBoti">Botilleria</h1>
+        <button id="checkout" class="btn-checkout" onclick="pay()">Pagar</button>
+    </div>
+    <div class="navbar-content">
+        <div class="product-container">
+            <h2 class="text-name">Nombre</h2>
+            <img src="./image/Product1.jpeg" alt="">
+            <p class="price-product">$1000</p>
+            <button class="btn-botton" onclick="add('Product1',1000)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h2 class="text-name">Nombre</h2>
+            <img src="./image/Product2.png" alt="">
+            <p class="price-product">$3000</p>
+            <button class="btn-botton" onclick="add('Product2',3000)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h2 class="text-name">Nombre</h2>
+            <img src="./image/Product3.jpg" alt="">
+            <p class="price-product">$4000</p>
+            <button class="btn-botton" onclick="add('Product3',4000)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h2 class="text-name">Nombre</h2>
+            <img src="./image/Product4.jpg" alt="">
+            <p class="price-product">$2500</p>
+            <button class="btn-botton" onclick="add('Product4',2500)">Agregar</button>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
